@@ -1,0 +1,313 @@
+.recent-contact-tag {
+    background: white !important;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.font-weight-bold {
+    font-weight: 600;
+}
+
+.font-weight-normal {
+    font-weight: 400;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-dark-green {
+    color: #092b00;
+}
+
+.text-green {
+    color: #52c41a;
+}
+
+.text-gray {
+    color: rgba(0, 0, 0, 0.45);
+}
+
+.dashboard-header-wrapper {
+    width: 100%;
+    background: #f3f2f1;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.dashboard-header-stats-bar {
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-header-stats-bar > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dashboard-header-stats-bar .ban-status-sider {
+    height: 40px;
+    width: 5px;
+    background: #73d13d;
+    border-radius: 20px;
+}
+
+.dashboard-header-stats-bar .customer-ban-values {
+    margin-left: 12px;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    height: 15px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.dashboard-header-cards-wrapper {
+    padding: 20px 30px;
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.dashboard-header-stats-bar .frequent-caller {
+    font-size: 10px;
+    color: #237804;
+    border: 1px solid #3f6600;
+    padding: 0px 5px;
+    height: 24px;
+}
+
+.amount-due-tooltip {
+    padding: 2px;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.amount-due-tooltip-amount {
+    color: #52c41a;
+}
+
+.amount-due-popover {
+    background: black;
+}
+
+.amount-due-tooltip .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bridgepay-popover {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #262626;
+}
+
+.bridgepay-popover .status {
+    color: #52c41a;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+
+.bridgepay-popover .status.Error {
+    color: #fa8c16 !important;
+}
+
+.bridgepay-popover .status.inactive {
+    color: #f5222d;
+}
+
+.bridgepay-popover .status.Inactive {
+    color: grey;
+}
+
+.ebb-buttons-container {
+    display: flex;
+}
+
+.ebb-buttons-container .submit-button {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.ebb-popover .submit-button.active {
+    background: #52c41a;
+}
+
+.ebb-popover .submit-button.inactive {
+    background: #f5222d;
+}
+
+.bridgepay-popover .submit-button.active {
+    text-transform: uppercase;
+    color: white;
+    background: #52c41a;
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+.bridgepay-popover .submit-button.inactive {
+    background: #135200;
+}
+
+.dashboard-header-stats-bar .stats-box {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.dashboard-header-stats-bar .stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value {
+    color: #52c41a;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value.inactive {
+    opacity: 0.5;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value.Enrolled {
+    opacity: 0.5;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value.Inactive {
+    opacity: 0.5;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value.Error {
+    color: #f5222d;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-value.error {
+    color: #fa8c16;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-badge {
+    color: #8c8c8c;
+    font-size: 18px;
+    margin-right: 4px;
+    margin-top: 6px;
+}
+
+.dashboard-header-stats-bar .stats-item .stats-label {
+    margin-top: 8px;
+    color: #092b00;
+    font-size: 12px;
+}
+
+.dashboard-header-cards-wrapper .stat-card {
+    margin-right: 20px;
+}
+
+.dashboard-header-cards-wrapper .ant-card.stat-card {
+    background: none;
+}
+
+.dashboard-header-cards-wrapper .stat-card .ant-card-body {
+    padding: 10px 22px;
+    width: 275px;
+}
+
+.dashboard-header-cards-wrapper .stat-card.account .ant-card-body {
+    padding: 10px 22px;
+    width: 324px;
+}
+
+.dashboard-header-cards-wrapper .stat-card .title {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+
+.dashboard-header-cards-wrapper .stat-card .stats-wrapper {
+    margin-top: 10px;
+    color: #1f1f1f;
+    font-size: 12px;
+    display: grid;
+    row-gap: 10px;
+    column-gap: 12px;
+    grid-template-columns: auto 1fr;
+}
+
+.dashboard-header-cards-wrapper .stat-card .stats-wrapper .stat-label {
+}
+
+.dashboard-header-cards-wrapper .stat-card .stats-wrapper .stat-value {
+}
+
+.dashboard-header-cards-wrapper .actions-list {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    line-height: 28px;
+    align-items: center;
+}
+
+.dashboard-header-cards-wrapper .actions-list ul {
+    margin: 0px;
+}
+
+.dashboard-header-cards-wrapper .actions-list a {
+    color: #092b00;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1550px) {
+    .dashboard-header-stats-bar {
+        padding: 10px 12px;
+    }
+    .dashboard-header-stats-bar .stats-item {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .dashboard-header-stats-bar .stats-item .stats-value {
+        font-size: 20px;
+    }
+    .dashboard-header-stats-bar .stats-item {
+        margin-left: 14px;
+    }
+}
